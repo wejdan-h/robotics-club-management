@@ -89,7 +89,8 @@ Table: **members**
 
 The main interface of the application.
 
-![Home Page](images/home-page.png)
+![Home Page](images/home-page1.png) ![Home Page](images/home-page2.png)
+
 
 ---
 
