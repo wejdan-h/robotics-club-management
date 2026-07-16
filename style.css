@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    color:white;
+
+    background-image:url("background.png");   
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    background-color:#12051f;
+
+}
+
+
+.hero{
+
+    text-align:center;
+
+    width:75%;
+
+    margin:70px auto;
+
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    margin-bottom:15px;
+
+}
+
+.hero h3{
+
+    color:#b46cff;
+
+    margin-bottom:20px;
+
+    font-size:28px;
+
+}
+
+.hero p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+}
+
+
+
+.card{
+
+    width:85%;
+
+    margin:25px auto;
+
+    padding:25px;
+
+    background:rgba(35,15,70,.70);
+
+    border:1px solid #7b2cff;
+
+    border-radius:18px;
+
+    backdrop-filter:blur(8px);
+
+}
+
+.card h2{
+
+    color:#d7b6ff;
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    line-height:1.8;
+
+    color:#eeeeee;
+
+}
+
+
+
+.dashboard{
+
+    width:85%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+
+/*What We Explore*/
+
+.services{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.service{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid #7b2cff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.service h3{
+
+    color:#c66cff;
+
+    margin-bottom:10px;
+
+}
+
+.service:hover{
+
+    transform:translateY(-5px);
+
+    transition:.3s;
+
+}
+
+
+/*Form*/
+
+input,
+select{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#24113f;
+
+    color:white;
+
+}
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#8c35ff;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#a855ff;
+
+}
+
+
+/*Table*/
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+th{
+
+    background:#7b2cff;
+
+    padding:15px;
+
+}
+
+td{
+
+    padding:15px;
+
+    background:rgba(255,255,255,.05);
+
+}
+
+table,
+th,
+td{
+
+    border:1px solid #6a2bd8;
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#cccccc;
+
+}
